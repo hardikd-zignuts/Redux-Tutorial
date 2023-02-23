@@ -16,7 +16,7 @@ const CakeShop = (props) => {
 
 const mapToStateProps = (state) => {
   return {
-    numOfCake: state.numOfCake,
+    numOfCake: state.cake.numOfCake,
   };
 };
 const mapToDispatchProps = (dispatch) => {
