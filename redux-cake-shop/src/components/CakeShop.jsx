@@ -6,6 +6,7 @@ const CakeShop = (props) => {
   return (
     <>
       <div>
+        <h2>Using Connect Function</h2>
         <h1>Number of Cake {props.numOfCake}</h1>
         <button onClick={props.buyCake}>Buy Cake</button>
       </div>
