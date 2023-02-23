@@ -19,6 +19,7 @@
   "homepage": "https://github.com/hardikd-zignuts/Redux-Tutorial#readme",
   "dependencies": {
     "nodemon": "^2.0.20",
-    "react-redux": "^8.0.5"
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1"
   }
 }
