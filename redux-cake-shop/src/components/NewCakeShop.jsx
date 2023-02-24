@@ -7,7 +7,7 @@ const NewCakeShop = (props) => {
   return (
     <>
       <div>
-        <h2>Example of Passing PayLoad</h2>
+        <u>Example of Passing PayLoad</u>
         <h1>Number of Cake {props.numOfCake}</h1>
         <input
           type="number"

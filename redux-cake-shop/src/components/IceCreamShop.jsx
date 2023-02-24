@@ -8,7 +8,7 @@ const IceCreamShop = () => {
   return (
     <>
       <div>
-        <h2>Using useSelector Hook and useDispatch Hook</h2>
+        <u>Using useSelector Hook and useDispatch Hook</u>
         <h1>Number of Cake {numOfIceCream}</h1>
         <button onClick={() => dispatch(buyIceCream())}>Buy IceCream</button>
       </div>

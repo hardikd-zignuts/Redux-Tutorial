@@ -5,18 +5,23 @@ import store from './Redux/Store';
 import CakeShopHook from './components/CakeShopHook';
 import IceCreamShop from './components/IceCreamShop';
 import NewCakeShop from './components/NewCakeShop';
+import ItemContainer from './components/ItemContainer';
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
+      <u>Using Second Argument of mapStateToProps Function</u>
+        <ItemContainer cake/>
+        <ItemContainer />
+        <hr />
         <CakeShop />
         <hr />
         <CakeShopHook />
         <hr />
         <IceCreamShop />
-        <hr/>
-        <NewCakeShop/>
+        <hr />
+        <NewCakeShop />
       </div>
     </Provider>
   );
